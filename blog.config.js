@@ -39,10 +39,10 @@ const BLOG = {
   PREVIEW_TAG_COUNT: 16, // 首页最多展示的标签数量，0为不限制
 
   // 社交链接，不需要可留空白，例如 CONTACT_WEIBO:''
-  CONTACT_EMAIL: 'lanhuazui@gmail.com',
+  CONTACT_EMAIL: 'nanalaoshi_top@163.com',
   CONTACT_WEIBO: '',
   CONTACT_TWITTER: '',
-  CONTACT_GITHUB: 'https://github.com/lanhuakai',
+  CONTACT_GITHUB: 'https://github.com/nanalaoshi-top',
   CONTACT_TELEGRAM: '',
 
   // 悬浮挂件
