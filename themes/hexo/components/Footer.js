@@ -19,7 +19,7 @@ const Footer = ({ title }) => {
         <i className='fas fa-users'/> <span className='px-1 busuanzi_value_site_uv'> </span> </span>
         <br/>
         <h1>{title}</h1>
-        <span className='text-xs font-serif'>可许则许</span></span><br/>
+        <span className='text-xs font-serif'>陕西省，宝鸡市</span></span><br/>
 
     </footer>
   )
