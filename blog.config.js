@@ -1,8 +1,8 @@
 // 注: process.env.XX是Vercel的环境变量，配置方式见：https://docs.tangly1024.com/zh/features/personality
 const BLOG = {
-  AUTHOR: '兰花醉', // 作者
-  BIO: '可许则许', // 作者简介
-  LINK: 'https://lanhuazui.top', // 网站地址
+  AUTHOR: '娜娜', // 作者
+  BIO: '娜娜老师的知识仓库', // 作者简介
+  LINK: 'https://nanalaoshi.top', // 网站地址
   AVATAR: '/avatar.png', // 个人头像 默认取public目录下的avatar.png
   KEYWORDS: 'Notion, 博客', // 网站关键词 英文逗号隔开
   NOTION_PAGE_ID:
@@ -46,7 +46,7 @@ const BLOG = {
   CONTACT_TELEGRAM: '',
 
   // 悬浮挂件
-  WIDGET_PET: process.env.NEXT_PUBLIC_WIDGET_PET || true, // 是否显示宠物挂件
+  WIDGET_PET: process.env.NEXT_PUBLIC_WIDGET_PET || false, // 是否显示宠物挂件
   WIDGET_PET_LINK:
     'https://cdn.jsdelivr.net/npm/live2d-widget-model-wanko@1.0.5/assets/wanko.model.json', // 挂件模型地址 @see https://github.com/xiazeyu/live2d-widget-models
   WIDGET_PET_SWITCH_THEME: false, // 点击宠物挂件切换博客主题
@@ -73,7 +73,7 @@ const BLOG = {
     process.env.NEXT_PUBLIC_COMMENT_GISCUS_CROSSORIGIN || 'anonymous', // 你的 Giscus 可以跨網域, 預設 'anonymous'
 
   //Cusdis 评论插件，不需要登录
-  COMMENT_CUSDIS_APP_ID: process.env.NEXT_PUBLIC_COMMENT_CUSDIS_APP_ID || '5f99fb8e-787a-4d9c-8a9f-6ac90a334a55', // data-app-id 36位 see https://cusdis.com/
+  COMMENT_CUSDIS_APP_ID: process.env.NEXT_PUBLIC_COMMENT_CUSDIS_APP_ID || '', // data-app-id 36位 see https://cusdis.com/
   COMMENT_CUSDIS_HOST:
     process.env.NEXT_PUBLIC_COMMENT_CUSDIS_HOST || 'https://cusdis.com', // data-host, change this if you're using self-hosted version
   COMMENT_CUSDIS_SCRIPT_SRC:
